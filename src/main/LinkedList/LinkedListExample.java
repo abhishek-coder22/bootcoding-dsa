@@ -31,7 +31,6 @@ public class LinkedListExample {
         head = newNode; // reset to newNode as Head
         return head;
     }
-
     public static Node insertNodeAtLast(Node head){
         //Traverse
         Node temp = head;
