@@ -1,8 +1,6 @@
 package LinkedList;
-
 public class LinkedListExample {
     public static void main(String[] args) {
-
         Node head = createLinkedList();
         print(head);
         head = insertNodeAtFirst(head);
@@ -10,9 +8,7 @@ public class LinkedListExample {
         head = insertNodeAtLast(head);
         print(head);
     }
-
     public static Node createLinkedList() {
-
         Node FirstNode = new Node(10);
         Node SecondNode = new Node(20);
         Node ThirdNode = new Node(30);
@@ -24,7 +20,6 @@ public class LinkedListExample {
         Node head = FirstNode;
         return head;
     }
-
     public static Node insertNodeAtFirst(Node head){
         Node newNode = new Node(50);
         newNode.next = head; // newNode is pointing head linkedlist
